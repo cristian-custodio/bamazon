@@ -1,0 +1,205 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/cristiancustodio/Desktop/newhomework/bamazon
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 197
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 19
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a url, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 223
+    content: 'Cristians-iMac:bamazon cristiancustodio$ '
+  - delay: 1943
+    content: 'n'
+  - delay: 96
+    content: o
+  - delay: 452
+    content: d
+  - delay: 173
+    content: e
+  - delay: 220
+    content: ' '
+  - delay: 637
+    content: b
+  - delay: 138
+    content: a
+  - delay: 137
+    content: m
+  - delay: 97
+    content: a
+  - delay: 175
+    content: z
+  - delay: 58
+    content: o
+  - delay: 111
+    content: 'n'
+  - delay: 230
+    content: C
+  - delay: 101
+    content: u
+  - delay: 69
+    content: s
+  - delay: 65
+    content: t
+  - delay: 57
+    content: o
+  - delay: 106
+    content: m
+  - delay: 51
+    content: e
+  - delay: 65
+    content: r
+  - delay: 135
+    content: .
+  - delay: 291
+    content: j
+  - delay: 476
+    content: s
+  - delay: 322
+    content: "\r\n"
+  - delay: 256
+    content: "connected as id 36\r\n\r\n============================================================\r\n|item_id|product_name |department_name|price|stock_quantity|\r\n============================================================\r\n|1      |phone        |electronics    |1000 |50            |\r\n|2      |battery      |electronics    |100  |50            |\r\n|3      |babwipes     |family         |20   |50            |\r\n|4      |pillows      |family         |200  |50            |\r\n|5      |bedsheets    |homedecor      |800  |50            |\r\n|6      |books        |art            |50   |50            |\r\n|7      |paitings     |art            |100  |50            |\r\n|8      |todlerfigures|actionfigures  |350  |50            |\r\n|9      |tradingcards |familygames    |99   |50            |\r\n|10     |monopoly     |familygames    |600  |20            |\r\n============================================================\r\n"
+  - delay: 12
+    content: "\e[32m?\e[39m \e[1mWhat is your product's ID?\e[22m\e[0m \e[0m\e[29D\e[29C"
+  - delay: 1547
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your product's ID?\e[22m\e[0m \e[0m1\e[30D\e[30C"
+  - delay: 57
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your product's ID?\e[22m\e[0m \e[0m10\e[31D\e[31C"
+  - delay: 188
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your product's ID?\e[22m\e[0m \e[0m\e[36m10\e[39m\e[31D\e[31C\r\n\e[32m?\e[39m \e[1mHow many units of the product would you like to buy?\e[22m\e[0m \e[0m\e[55D\e[55C"
+  - delay: 1743
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mHow many units of the product would you like to buy?\e[22m\e[0m \e[0m5\e[56D\e[56C"
+  - delay: 97
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mHow many units of the product would you like to buy?\e[22m\e[0m \e[0m50\e[57D\e[57C"
+  - delay: 984
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mHow many units of the product would you like to buy?\e[22m\e[0m \e[0m\e[36m50\e[39m\e[57D\e[57C\r\nInsufficient quantity!\r\n\e[32m?\e[39m \e[1mWould you like to place another order?\e[22m\e[0m \e[0m\e[2m(Y/n) \e[22m\e[47D\e[47C"
+  - delay: 2763
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWould you like to place another order?\e[22m\e[0m \e[0m\e[2m(Y/n) \e[22my\e[48D\e[48C"
+  - delay: 511
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWould you like to place another order?\e[22m\e[0m \e[0m\e[36mYes\e[39m\e[44D\e[44C\r\n============================================================\r\n|item_id|product_name |department_name|price|stock_quantity|\r\n============================================================\r\n|1      |phone        |electronics    |1000 |50            |\r\n|2      |battery      |electronics    |100  |50            |\r\n|3      |babwipes     |family         |20   |50            |\r\n|4      |pillows      |family         |200  |50            |\r\n|5      |bedsheets    |homedecor      |800  |50            |\r\n|6      |books        |art            |50   |50            |\r\n|7      |paitings     |art            |100  |50            |\r\n|8      |todlerfigures|actionfigures  |350  |50            |\r\n|9      |tradingcards |familygames    |99   |50            |\r\n|10     |monopoly     |familygames    |600  |20            |\r\n============================================================\r\n\e[32m?\e[39m \e[1mWhat is your product's ID?\e[22m\e[0m \e[0m\e[29D\e[29C"
+  - delay: 1368
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your product's ID?\e[22m\e[0m \e[0m1\e[30D\e[30C"
+  - delay: 57
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your product's ID?\e[22m\e[0m \e[0m10\e[31D\e[31C"
+  - delay: 1419
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your product's ID?\e[22m\e[0m \e[0m\e[36m10\e[39m\e[31D\e[31C\r\n\e[32m?\e[39m \e[1mHow many units of the product would you like to buy?\e[22m\e[0m \e[0m\e[55D\e[55C"
+  - delay: 1470
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mHow many units of the product would you like to buy?\e[22m\e[0m \e[0m1\e[56D\e[56C"
+  - delay: 68
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mHow many units of the product would you like to buy?\e[22m\e[0m \e[0m10\e[57D\e[57C"
+  - delay: 504
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mHow many units of the product would you like to buy?\e[22m\e[0m \e[0m\e[36m10\e[39m\e[57D\e[57C\r\nOrder successful!\r\nThe total cost of your purchase is: $6000\r\n"
+  - delay: 76
+    content: "Quantities have been updated!\r\n\r\n\e[32m?\e[39m \e[1mWould you like to place another order?\e[22m\e[0m \e[0m\e[2m(Y/n) \e[22m\e[47D\e[47C"
+  - delay: 3212
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWould you like to place another order?\e[22m\e[0m \e[0m\e[2m(Y/n) \e[22mn\e[48D\e[48C"
+  - delay: 336
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWould you like to place another order?\e[22m\e[0m \e[0m\e[36mNo\e[39m\e[43D\e[43C\r\nSee you next time!\r\n"
+  - delay: 5
+    content: 'Cristians-iMac:bamazon cristiancustodio$ '
+  - delay: 1331
+    content: "logout\r\n"
